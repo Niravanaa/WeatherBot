@@ -1,0 +1,21 @@
+import unittest
+from unittest.mock import AsyncMock, patch
+from discord.ext import commands
+from ../cogs.weather_cog import WeatherCog
+
+class TestWeatherCommands(unittest.TestCase):
+    def setUp(self):
+        self.bot = commands.Bot(command_prefix='!')
+        self.cog = WeatherCog(self.bot)
+        self.ctx = AsyncMock()
+
+    def test_get_current_weather(self):
+        # Replace with your test cases for the get_current_weather command
+        pass
+
+    def test_get_weather_forecast(self):
+        # Replace with your test cases for the get_weather_forecast command
+        pass
+
+if __name__ == '__main__':
+    unittest.main()

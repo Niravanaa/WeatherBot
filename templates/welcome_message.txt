@@ -1,0 +1,10 @@
+Welcome to the WeatherBot!
+
+We're here to provide you with weather information whenever you need it. You can use the following commands to get started:
+
+1. `!weather [location]`: Get the current weather for a specific location.
+2. `!forecast [location]`: Get the weather forecast for a specific location.
+
+You can also set your weather preferences using the `!setprefs` command.
+
+Enjoy using WeatherBot!

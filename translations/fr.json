@@ -1,0 +1,23 @@
+{
+    "greetings": "Salutations !",
+    "current_weather": {
+        "temperature": "Température : {{temp}}°C ({{temp_f}}°F)",
+        "wind": "Vent : {{speed}} kph, {{dir}}",
+        "humidity": "Humidité : {{humidity}}%",
+        "pressure": "Pression : {{pressure}} mb",
+        "weather_text": "Conditions : {{weather_text}}"
+    },
+    "forecast": {
+        "date": "Date : {{date}}",
+        "max_temp": "Température Maximale : {{day_max_temp}}°C ({{day_max_temp_f}}°F)",
+        "min_temp": "Température Minimale : {{night_min_temp}}°C ({{night_min_temp_f}}°F)",
+        "day": {
+            "wind": "Vent Jour : {{day.wind.speed}} kph, {{day.wind.dir}}",
+            "weather": "Conditions Jour : {{day.weather_text}}"
+        },
+        "night": {
+            "wind": "Vent Nuit : {{night.wind.speed}} kph, {{night.wind.dir}}",
+            "weather": "Conditions Nuit : {{night.weather_text}}"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "user_id_1": {
+        "units": "metric",
+        "language": "en",
+        "default_location": "New York"
+    },
+    "user_id_2": {
+        "units": "imperial",
+        "language": "fr",
+        "default_location": "Paris"
+    },
+    "user_id_3": {
+        "units": "metric",
+        "language": "es",
+        "default_location": "Madrid"
+    }
+}

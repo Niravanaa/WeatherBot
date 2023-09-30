@@ -1,0 +1,22 @@
+WeatherBot User Guide
+
+1. **Getting Current Weather**
+   - To get the current weather for a location, use the command: `!weather [location]`
+   - Example: `!weather New York`
+
+2. **Getting Weather Forecast**
+   - To get the weather forecast for a location, use the command: `!forecast [location]`
+   - Example: `!forecast Paris`
+
+3. **Setting Preferences**
+   - You can set your weather preferences with the `!setprefs` command:
+     - `!setprefs [units] [language]`
+     - Example: `!setprefs metric en`
+
+4. **Getting Preferences**
+   - To check your current preferences, use the command: `!getprefs`
+
+5. **Additional Help**
+   - If you need assistance or have questions, feel free to ask!
+
+Enjoy using WeatherBot for all your weather needs!
