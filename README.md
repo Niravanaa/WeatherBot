@@ -10,7 +10,6 @@ This is a Discord bot that provides weather information for specified locations.
 - Get current weather conditions for a location.
 - Fetch weather forecasts, including daily and hourly forecasts.
 - Set and manage user-specific weather preferences.
-- ...
 
 ## Installation
 
@@ -41,11 +40,10 @@ python main.py
 ```
 
 - Use the following Discord commands:
-- `!weather [location]` - Get current weather conditions.
-- `!forecast [location]` - Get weather forecasts.
+- `!current_weather [location]` - Get current weather conditions.
+- `!forecast_weather [location]` - Get weather forecasts.
 - `!setprefs [units] [language]` - Set your weather preferences.
 - `!getprefs` - Get your current preferences.
-- ...
 
 ## Configuration
 
