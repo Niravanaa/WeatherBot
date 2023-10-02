@@ -3,7 +3,7 @@ from discord.ext import commands
 from utils.weather_api import WeatherAPI
 from utils.gui_builder import GUIBuilder
 import config
-import json  # Import the json module
+import json
 from datetime import datetime
 
 class WeatherCog(commands.Cog):
@@ -13,7 +13,7 @@ class WeatherCog(commands.Cog):
 
     # Command: !weather [location]
     @commands.command(name='current_weather', help='Get the current weather for a location')
-    async def get_current_weather(self, ctx, location):
+    async def get_current_weather(self, ctx, *, location):
         # Get user preferences (units and language)
         user_id = str(ctx.author.id)
         units = config.DEFAULT_UNITS
@@ -61,7 +61,7 @@ class WeatherCog(commands.Cog):
 
     # Command: !forecast_weather [location]
     @commands.command(name='forecast_weather', help='Get the current weather for a location')
-    async def get_forecast_weather(self, ctx, location):
+    async def get_forecast_weather(self, ctx, *, location):
         # Get user preferences (units and language)
         user_id = str(ctx.author.id)
         units = config.DEFAULT_UNITS
