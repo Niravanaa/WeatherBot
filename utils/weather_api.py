@@ -13,15 +13,14 @@ class WeatherAPI:
         response = requests.get(self.base_url + endpoint)
 
         if response.status_code == 200:
-            print(response.text + "\n\n")
             return response.text
         else:
             return None
 
-    def get_weather_forecast(self, location, language='en'):
+    def get_forecast_weather(self, location, language='en'):
         endpoint = f"/api/forecast/{location}?lang={language}&{self.app_key}"
 
-        response = requests.get(self.base_url + endpoint, params=params)
+        response = requests.get(self.base_url + endpoint)
 
         if response.status_code == 200:
             return response.text

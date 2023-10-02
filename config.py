@@ -1,5 +1,5 @@
 # Discord Bot Token
-BOT_TOKEN = 'MTE1NzQ1NjgyOTY4MTUwMDI4MA.GdP42F.vrGJ88siEmSN8c_lwzaPe53gBCvbOtuE-znJCg'
+BOT_TOKEN = 'INSERT_TOKEN_HERE'
 
 # Weather API Configuration
 WEATHER_API_KEY = 'app_id=aac55cd5&app_key=c89fd8786e423040c50508e003b26c26'
