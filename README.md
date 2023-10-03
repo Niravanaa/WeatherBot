@@ -55,14 +55,6 @@ python main.py
 - Customize the bot's behavior by modifying the code in `main.py`.
 - Add more features and commands by creating additional cogs.
 
-## Tests
-
-- Run unit tests:
-
-```bash
-python -m unittest discover tests
-```
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
