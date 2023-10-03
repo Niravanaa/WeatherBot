@@ -20,7 +20,7 @@ This is a Discord bot that provides weather information for specified locations.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/discord-weather-bot.git
+git clone https://github.com/Niravanaa/WeatherBot.git
 ```
 
 2. Install dependencies:
