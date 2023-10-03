@@ -1,6 +1,10 @@
 # WeatherBot
  Neat little RESTful API project that uses Python to obtain relevant weather information.
 
+<img align="right" src="https://i.imgur.com/k4Hk8ro.png" width="50%"/>
+
+<img align="right" src="https://i.imgur.com/4Rqbnz5.png" width="50%"/></p>
+
 ## Overview
 
 This is a Discord bot that provides weather information for specified locations. It allows users to check the current weather, weather forecast, and set their weather preferences.
@@ -71,4 +75,5 @@ Contributions are welcome!
 
 - Thanks to the [Discord.py](https://discordpy.readthedocs.io/en/stable/) library.
 - Weather data provided by [WeatherUnlocked.com](https://weatherunlocked.com/).
+- Geocoding API provided by [Free Geocoding API](https://geocode.maps.co/).
 
