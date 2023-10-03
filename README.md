@@ -29,10 +29,10 @@ git clone https://github.com/your-username/discord-weather-bot.git
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file and add your Discord bot token:
+3. Set the TOKEN property in `config.py` to your Discord Bot's token:
 
 ```bash
-DISCORD_TOKEN=your_bot_token_here
+TOKEN="your_bot_token_here"
 ```
 
 ## Usage
